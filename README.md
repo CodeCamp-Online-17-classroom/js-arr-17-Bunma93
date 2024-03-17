@@ -1,8 +1,8 @@
-# js-lab-102
-### Lab102 Array: การแปลงคำที่อยู่ในรูป dash-separated
-จงเขียนฟังก์ชันในการแปลงคำที่อยู่ในรูปแบบ dash-separated เช่น background-color ให้อยู่ในรูปแบบ camelCase เช่น backgroundColor
+# js-lab-103
+### Lab103 Array: การตรวจสอบArray
+จงเขียนฟังก์ชัน isArray(input) เพื่อตรวจสอบว่า input เป็น Array หรือไม่ 
 
 ```JavaScript
-const dashedText = "background-color";
-console.log(convertToCamelCase(dashedText)); // "backgroundColor"
+console.log(isArray([1, 2, 3])); // true
+console.log(isArray("Hello")); // false
 ```
